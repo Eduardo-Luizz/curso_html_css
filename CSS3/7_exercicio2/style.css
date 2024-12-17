@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 10px;
+}
+
+section ul li {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    width: 600px;
+    height: 500px;
+}
+
+section ul li:hover {
+    border: 2px solid blue;
+}
+
+section ul, li {
+    padding: 10px;
+}
+
+.hidden {
+    display: none;
+}

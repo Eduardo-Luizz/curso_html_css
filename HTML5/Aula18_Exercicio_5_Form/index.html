@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formulário de inscrição</h1>
+
+    <div>
+        <form action="#" method="post">
+
+            <div>
+                <label for="nome">Nome:</label> <br>
+                <input type="text" id="nome" name="nome" required>
+                <br><br>
+            </div>
+
+            <div>
+                <label for="email">Email:</label> <br>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+            </div>
+
+            <div>
+                <label for="cel">Celular:</label> <br>
+                <input type="text" id="cel" name="cel" required>
+                <br><br>
+            </div>
+
+            <div>
+                <label>Área de atuação:</label> <br>
+                <input type="radio" id="desenvolvedor" name="profissao" value="desenvolvedor">
+                <label for="desenvolvedor">Desenvolvedor</label>
+
+                <input type="radio" id="qa" name="profissao" value="qa">
+                <label for="qa">Quality Assurance (QA)</label>
+
+                <input type="radio" id="dados" name="profissao" value="dados">
+                <label for="dados">Analista de dados</label>
+
+                <input type="radio" id="infra" name="profissao" value="infra">
+                <label for="infra">Infraestrutura</label>
+                <br><br>
+            </div>
+
+            <div>
+                <label for="obs">Observações:</label> <br>
+                <textarea name="obs" id="obs" cols="40" rows="6" placeholder="Fale um pouco sobre você..."></textarea>
+                <br><br>
+            </div>
+
+            <div>
+                <input type="checkbox" id="terms" name="termos" value="terms">
+                <label for="terms">Desejo receber novidades e ofertas por email.</label>
+                <br><br>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+
+</html>
